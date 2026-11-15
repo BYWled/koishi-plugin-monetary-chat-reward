@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-monetary-chat-reward",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "为 monetary 货币系统提供聊天随机奖励与聊天排行奖励：概率/黑白名单/预算/冷却可配置，联动 message-counter 排行数据",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/BYWled/koishi-plugin-monetary-chat-reward",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BYWled/koishi-plugin-monetary-chat-reward"
+    "url": "git+https://github.com/BYWled/monetary-chat-reward.git"
   },
   "koishi": {
     "description": {
@@ -66,5 +66,9 @@
     "koishi-plugin-message-counter": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "tag": "alpha",
+    "access": "public"
   }
 }

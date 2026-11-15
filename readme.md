@@ -12,16 +12,18 @@
 
 <p align="center">
 	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-chat-reward"><img src="https://img.shields.io/badge/Gitee-代码镜像-C71D23?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee Mirror" /></a>
+	<a href="https://gitcode.com/BYWled/koishi-plugin-monetary-chat-reward"><img src="https://img.shields.io/badge/GitCode-代码镜像-2962FF?style=for-the-badge" alt="GitCode Mirror" /></a>
 </p>
 
 <p align="center">
 	<a href="https://github.com/BYWled/koishi-plugin-monetary-chat-reward">GitHub</a> ·
-	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-chat-reward">Gitee</a>
+	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-chat-reward">Gitee</a> ·
+	<a href="https://gitcode.com/BYWled/koishi-plugin-monetary-chat-reward">GitCode</a>
 </p>
 
 两个互补的活跃度激励业务：**聊天随机奖励**让每条消息都有小概率掉落货币（带完整的防刷约束）；**聊天排行奖励**按日/周/月自动给发言榜前列发放奖励（可选联动 [koishi-plugin-message-counter](https://github.com/araea/koishi-plugin-message-counter) 聊天统计插件）。
 
-> 版本：**1.0.0**
+> 版本：**Alpha.1**
 
 ## ✨ 特性
 
