@@ -1,0 +1,70 @@
+{
+  "name": "koishi-plugin-monetary-chat-reward",
+  "version": "1.0.0",
+  "description": "为 monetary 货币系统提供聊天随机奖励与聊天排行奖励：概率/黑白名单/预算/冷却可配置，联动 message-counter 排行数据",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "monetary",
+    "chat",
+    "reward",
+    "聊天奖励",
+    "排行奖励",
+    "货币",
+    "活跃",
+    "经济",
+    "economy"
+  ],
+  "author": {
+    "name": "BYWled",
+    "email": "bywled@qq.com",
+    "url": "https://github.com/BYWled"
+  },
+  "homepage": "https://github.com/BYWled/koishi-plugin-monetary-chat-reward",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BYWled/koishi-plugin-monetary-chat-reward"
+  },
+  "koishi": {
+    "description": {
+      "en": "Chat random rewards and chat ranking rewards for monetary: configurable probability, black/white lists, budgets, cooldowns; integrates with message-counter",
+      "zh": "为 monetary 货币系统提供聊天随机奖励与聊天排行奖励：概率/黑白名单/预算/冷却可配置，联动 message-counter 排行数据"
+    },
+    "service": {
+      "required": [
+        "database",
+        "monetary"
+      ],
+      "optional": [
+        "cron"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.11",
+    "koishi-plugin-monetary": "*",
+    "koishi-plugin-cron": "*",
+    "koishi-plugin-message-counter": "*"
+  },
+  "peerDependenciesMeta": {
+    "koishi-plugin-cron": {
+      "optional": true
+    },
+    "koishi-plugin-message-counter": {
+      "optional": true
+    }
+  }
+}
